@@ -79,6 +79,7 @@ const BlogPage = () => {
             </div>
           </div>
         </div>
+        <Link to="/" style={{ textDecoration: 'none' }}><button>Back to Home</button></Link>
       </div>
     </div>
   );
