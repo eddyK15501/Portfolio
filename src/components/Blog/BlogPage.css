@@ -50,14 +50,16 @@
     cursor: pointer;
     display: block;
     margin: 7rem auto 6rem;
-    font-family: inherit;
-    font-size: 1.2rem;
     padding: 1rem;
-    border-radius: 1rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
 }
 
 #blogs button:hover {
-    background-color: rgb(213, 213, 213);
+    background-color: #6CB4EE;
+    color: white;
+    transform: scale(1.05);
 }
 
 #blogs button:active {
