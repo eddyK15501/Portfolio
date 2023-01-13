@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Noto+Serif&display=swap');
+
+#skills {
+    font-family: 'Noto Serif', serif;
+    background-image: url('https://img.freepik.com/free-vector/abstract-background-with-minimalist-design_1048-13338.jpg?w=2000&t=st=1673114278~exp=1673114878~hmac=e8e4ecd768e70e7d0d0c3103f7f8be5d5e5484aef72faa68664599963525c3d7');
+    box-shadow: inset 0px 1px 0px 0px rgb(0 0 0 / 5%), inset 0px 2px 3px 0px rgb(0 0 0 / 10%);
+}
+
+#skills .main-container {
+    padding: 6% 0 12% 0;
+    max-width: 1450px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#skills h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+#skills .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6%;
+    margin-bottom: 0.625rem;
+}
+
+#skills .skills-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills .skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 0.625rem 0.625rem 0.3125rem 0.625rem;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    font-size: 0.7rem;
+    margin: 5px 10px;
+}
+
+#skills .logo-header {
+    margin: 5px 0 8px;
+}

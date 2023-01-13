@@ -1,0 +1,27 @@
+#footer {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.75rem;
+    box-shadow: inset 0px 1px 0px 0px rgb(0 0 0 / 5%), inset 0px 2px 3px 0px rgb(0 0 0 / 10%);
+}
+
+#footer .main-container {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#footer a {
+    color: #fff;
+    margin: 0 0.3rem;
+}
+
+#footer .icon-container a:visited {
+    color: #fff;;
+}
+
+#footer .copyright-container {
+    margin-top: 1.8rem;
+}
